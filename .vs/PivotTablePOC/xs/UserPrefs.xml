@@ -1,0 +1,70 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{3BBD2906-B2E2-45BE-AD3A-3A53A3B883FA}|PivotTable">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Components/PivotTable/Column.razor">
+    <Files>
+      <File FileName="Pages/Counter.razor" Line="1" Column="1" />
+      <File FileName="Pages/FetchData.razor" Line="1" Column="1" />
+      <File FileName="Pages/Index.razor" Line="1" Column="14" />
+      <File FileName="Shared/SurveyPrompt.razor" Line="17" Column="1" />
+      <File FileName="Shared/NavMenu.razor" Line="12" Column="1" />
+      <File FileName="Shared/MainLayout.razor" Line="9" Column="9" />
+      <File FileName="Pages/MockView.razor" Line="31" Column="33" />
+      <File FileName="_Imports.razor" Line="12" Column="1" />
+      <File FileName="App.razor" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="12" Column="1" />
+      <File FileName="Model/Mock/MockModel.cs" Line="47" Column="10" />
+      <File FileName="Model/PivotHeader.cs" Line="42" Column="39" />
+      <File FileName="Model/PivotTable.cs" Line="29" Column="28" />
+      <File FileName="Model/PivotMeasure.cs" Line="41" Column="70" />
+      <File FileName="Model/TypeHelper.cs" Line="15" Column="1" />
+      <File FileName="Model/PivotModel.cs" Line="11" Column="44" />
+      <File FileName="wwwroot/index.html" Line="26" Column="31" />
+      <File FileName="wwwroot/css/styles.min.css" Line="3413" Column="2" />
+      <File FileName="Properties/launchSettings.json" Line="14" Column="41" />
+      <File FileName="Model/PivotDimension.cs" Line="1" Column="1" />
+      <File FileName="Model/DynamicModel.cs" Line="14" Column="1" />
+      <File FileName="Components/PivotTable/PivotTableView.razor" Line="9" Column="20" />
+      <File FileName="Components/PivotTable/PivotViewDef.razor" Line="43" Column="31" />
+      <File FileName="Components/PivotTable/RowHeader.razor" Line="22" Column="11" />
+      <File FileName="Components/PivotTable/Column.razor" Line="19" Column="47" />
+      <File FileName="Components/PivotTable/ColumnHeader.razor" Line="12" Column="1" />
+      <File FileName="wwwroot/css/app.css" Line="1" Column="1" />
+      <File FileName="Components/PivotTable/ColumnMeasure.razor" Line="2" Column="1" />
+      <File FileName="Components/PivotTable/ColumnWithRowHeader.razor" Line="31" Column="1" />
+      <File FileName="wwwroot/css/bootstrap/bootstrap.min.css" Line="1" Column="1" />
+      <File FileName="Model/PivotCell.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PivotTablePOC" expanded="True">
+            <Node name="PivotTablePOC" expanded="True">
+              <Node name="Components" expanded="True">
+                <Node name="PivotTable" expanded="True" />
+              </Node>
+              <Node name="Model" expanded="True">
+                <Node name="Mock" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Shared" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="mock-data" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PivotTablePOC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

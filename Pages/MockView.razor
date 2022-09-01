@@ -1,0 +1,50 @@
+﻿@using PivotTablePOC.Model.Mock
+@using PivotTablePOC.Model
+@using PivotTablePOC.Components.PivotTable
+
+@inject HttpClient Http
+
+@page "/"
+
+
+<PageTitle>Mock Pivot Table</PageTitle>
+
+@if (ViewModel != null)
+{
+    <PivotViewDef PivotModel="ViewModel.PivotModel" RefreshPivotGrid="RefereshPivotTable"></PivotViewDef>
+    <PivotTableView PivotTable="PivotTable"></PivotTableView>
+}
+
+@code
+{
+
+    public static Dictionary<string, Type> MetaInfo = new Dictionary<string, Type>() {
+        { "Id", typeof(int) },
+        { "FirstName", typeof(string) },
+        { "LastName", typeof(string) },
+        { "Organization", typeof(string) },
+        { "Department", typeof(string) },
+        { "Division", typeof(string) },
+        { "Quater", typeof(string) },
+        { "Month", typeof(string) },
+        { "Week", typeof(string) },
+        { "Stock",typeof(int) },
+        { "Amount", typeof(int) }
+    };
+
+    public MockModel ViewModel { get; set; }
+
+    public PivotTable PivotTable { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await Http.GetStringAsync("mock-data/MOCK_DATA.csv");
+
+        ViewModel = new MockModel(data, MetaInfo);
+    }
+
+    public void RefereshPivotTable()
+    {
+        PivotTable = ViewModel.BuildPivotTable();
+    }
+}

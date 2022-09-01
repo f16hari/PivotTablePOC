@@ -1,0 +1,8 @@
+﻿@using PivotTablePOC.Model;
+
+<button type="button" class="btn btn__filter btn__filter--accent w-100">@Measure.Property</button>
+
+@code {
+    [Parameter]
+    public PivotMeasure Measure { get; set; }
+}

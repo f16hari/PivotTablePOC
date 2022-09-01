@@ -1,0 +1,101 @@
+Id,FirstName,LastName,Organization,Department,Division,Quater,Month,Week,Stock,Amount
+1,Gisele,Antcliffe,JPMorgan,Client,Sales,Autumn,June,First,544,15277
+2,Lanny,Dahlen,Cannon,Platform,Finance,Fall,March,First,455,44874
+3,Liza,Espinha,JPMorgan,Product,Finance,Summer,July,Fourth,750,26341
+4,Karoly,Butrimovich,Lenovo,Product,Finance,Fall,September,Third,919,11982
+5,Gabie,Giggs,Dell,Product,Sales,Winter,June,First,570,49836
+6,Wiley,Wellstead,HP,Platform,Sales,Fall,September,Fourth,244,72374
+7,Ofilia,Loughren,Dell,Client,Development,Summer,January,Fourth,806,54424
+8,Julio,Terris,JPMorgan,Platform,Sales,Winter,August,Fourth,831,22710
+9,Antons,Barrie,Cannon,Platform,Finance,Autumn,August,Fifth,779,42141
+10,Jacobo,Klugel,JPMorgan,Platform,Quality Analysis,Winter,March,First,200,67923
+11,Waite,Salack,JPMorgan,Platform,Finance,Fall,November,Second,767,91164
+12,Jorey,Gillani,HP,Product,Development,Winter,March,First,321,76803
+13,Iver,Row,Cannon,Client,Sales,Winter,April,Fifth,901,47832
+14,Blanch,Scarsbrick,Fiserv,Project,Quality Analysis,Autumn,November,Second,265,53225
+15,Martino,Payley,JPMorgan,Platform,Development,Summer,August,Second,145,32077
+16,Umeko,Palia,Lenovo,Product,Finance,Winter,March,First,761,68653
+17,Halie,Cucuzza,JPMorgan,Platform,Finance,Winter,May,Second,395,77879
+18,Clay,Matysiak,Dell,Client,Finance,Winter,March,Fifth,587,99347
+19,Gypsy,Demko,JPMorgan,Product,Development,Fall,December,Second,436,42766
+20,Babara,Cottem,JPMorgan,Project,Development,Summer,October,First,586,15290
+21,Lay,Olpin,Fiserv,Client,Sales,Autumn,December,Fourth,981,66030
+22,Shirley,Morphew,Cannon,Platform,Sales,Winter,March,First,342,57822
+23,Winfield,Sieghart,HP,Platform,Finance,Autumn,April,Fifth,171,49662
+24,Vinnie,Quested,JPMorgan,Product,Sales,Autumn,August,First,883,56400
+25,Darleen,Ambroise,Lenovo,Client,Sales,Fall,August,Fourth,459,16800
+26,Janot,Matherson,Lenovo,Platform,Finance,Winter,December,First,571,42397
+27,Reynolds,Springford,JPMorgan,Platform,Development,Winter,June,Fourth,975,91721
+28,Grant,Conman,HP,Product,Sales,Autumn,August,Fourth,112,56864
+29,Aridatha,Vickors,Fiserv,Platform,Finance,Summer,May,Second,656,39092
+30,Jackson,Queste,HP,Product,Quality Analysis,Fall,August,Fourth,577,68485
+31,Denis,Groveham,Dell,Project,Finance,Winter,September,Fourth,819,20170
+32,Myrah,Colbrun,JPMorgan,Client,Quality Analysis,Autumn,May,First,591,22070
+33,Melisa,Hinz,HP,Client,Quality Analysis,Fall,Feburary,First,326,50145
+34,Elberta,Lief,HP,Platform,Quality Analysis,Autumn,April,Second,504,28393
+35,Lothario,Julyan,JPMorgan,Project,Development,Fall,April,Fifth,552,27680
+36,Ciro,Portman,Fiserv,Platform,Quality Analysis,Winter,August,Fifth,554,78116
+37,Melina,Rennles,Dell,Project,Sales,Winter,November,First,707,98749
+38,Christiane,Flight,Fiserv,Product,Quality Analysis,Winter,May,Second,319,83886
+39,Lurette,Ager,Dell,Client,Quality Analysis,Fall,July,Third,246,93463
+40,Marlo,Manser,JPMorgan,Project,Development,Summer,November,Third,577,46225
+41,Erinn,Bernardoux,JPMorgan,Product,Finance,Summer,November,Fourth,782,91945
+42,Abran,Tully,HP,Project,Quality Analysis,Autumn,July,First,778,42675
+43,Emelyne,Gillam,Dell,Client,Development,Fall,December,First,718,59646
+44,Gypsy,Ayris,Fiserv,Product,Quality Analysis,Fall,September,Second,568,31984
+45,Caitrin,Hamblen,Cannon,Product,Sales,Summer,August,Fourth,373,34323
+46,Curry,Billin,Dell,Project,Sales,Fall,October,Second,824,1055
+47,Maren,Dedham,Fiserv,Client,Finance,Fall,April,Fifth,326,75348
+48,Tiphanie,Escritt,Fiserv,Product,Development,Summer,May,Second,223,19006
+49,Gerardo,Layfield,Fiserv,Platform,Sales,Winter,October,Fifth,510,32041
+50,Joaquin,Mioni,Cannon,Product,Finance,Summer,September,First,761,26847
+51,Sharyl,Giovannacc@i,Dell,Product,Sales,Fall,December,Fourth,171,28321
+52,Nyssa,Sacco,Lenovo,Client,Quality Analysis,Winter,May,Fifth,792,59409
+53,Kirbee,Savege,Dell,Product,Sales,Autumn,July,Fourth,823,18175
+54,Veriee,Jeram,Dell,Project,Finance,Fall,March,Fifth,420,13421
+55,Ruthanne,Damato,Dell,Project,Quality Analysis,Fall,January,Third,928,15777
+56,Asher,Lowther,Dell,Project,Development,Autumn,April,First,397,13317
+57,Guillema,Pover,Fiserv,Project,Quality Analysis,Autumn,September,Fourth,426,4058
+58,Emmeline,Bafford,HP,Client,Finance,Fall,April,Second,224,48675
+59,Ellette,Folling,Dell,Client,Sales,Autumn,June,First,175,30856
+60,Veronica,Nottingham,JPMorgan,Project,Development,Autumn,July,Third,550,32165
+61,Orelia,Coopman,Cannon,Client,Sales,Autumn,Feburary,Second,978,30153
+62,Stanly,Dilks,HP,Product,Quality Analysis,Fall,April,Fifth,819,34492
+63,Jim,Tinner,JPMorgan,Project,Finance,Summer,January,Fifth,362,94782
+64,Annemarie,Padginton,JPMorgan,Product,Quality Analysis,Fall,Feburary,Second,844,31334
+65,Angel,Englefield,Cannon,Project,Quality Analysis,Fall,August,Fifth,175,54099
+66,Colene,Sheeran,Dell,Product,Finance,Summer,August,Second,342,52940
+67,Sumner,Leyes,Cannon,Project,Finance,Summer,May,Fourth,130,78994
+68,Jerald,Danby,Fiserv,Product,Finance,Summer,October,First,486,38067
+69,Aubrey,Giorgini,Dell,Project,Development,Fall,June,Fifth,218,39524
+70,Wiatt,Lidgey,Cannon,Product,Quality Analysis,Summer,March,Fourth,325,1068
+71,Dolorita,Brehault,Cannon,Platform,Finance,Fall,August,Second,446,59919
+72,Olwen,Taylour,Cannon,Product,Development,Summer,January,First,339,75092
+73,Roseann,Dupree,Lenovo,Platform,Sales,Summer,June,Fourth,279,57868
+74,Stephanus,Grimditch,JPMorgan,Client,Development,Summer,May,Fourth,495,93884
+75,Fair,Narrie,Cannon,Platform,Development,Autumn,May,Third,600,62024
+76,Marice,Batha,JPMorgan,Platform,Development,Winter,Feburary,Fourth,607,20154
+77,Rene,Roobottom,Lenovo,Product,Quality Analysis,Summer,Feburary,Second,768,53894
+78,Keri,Scarffe,Fiserv,Product,Sales,Winter,Feburary,Second,710,91471
+79,Joey,Cunrado,Lenovo,Platform,Sales,Winter,April,Third,333,27092
+80,Gloria,Waddam,JPMorgan,Client,Sales,Summer,March,Fourth,447,41970
+81,Zulema,Housiaux,HP,Client,Finance,Autumn,September,Third,295,18230
+82,Flint,Brownlea,Lenovo,Project,Sales,Fall,August,Second,799,66344
+83,Gloriane,Harron,Cannon,Platform,Quality Analysis,Summer,October,Fourth,657,51497
+84,Conan,Rubinshtein,Cannon,Platform,Development,Winter,March,First,672,98129
+85,Shina,Blaksley,Lenovo,Project,Finance,Autumn,August,Third,715,88706
+86,Corny,Pessolt,Lenovo,Product,Development,Summer,January,Fifth,482,89835
+87,Chico,Northover,Cannon,Client,Quality Analysis,Summer,August,Third,146,52260
+88,Nissy,Guye,JPMorgan,Product,Sales,Fall,July,Second,851,87840
+89,Ragnar,Sarfat,Cannon,Product,Finance,Winter,January,Third,288,41170
+90,Vittoria,Beaves,Lenovo,Project,Sales,Summer,October,Fourth,230,19708
+91,Jammal,Klimt,Cannon,Platform,Development,Fall,August,Fourth,347,59733
+92,Gonzales,Iley,Cannon,Product,Sales,Autumn,Feburary,Second,983,54784
+93,Jenna,Gout,Dell,Product,Finance,Summer,April,Third,944,83554
+94,Walker,Hallad,Dell,Project,Finance,Winter,May,First,681,33176
+95,Rafi,Willmore,HP,Product,Sales,Summer,November,Fifth,296,90658
+96,Nancee,Ashness,Dell,Project,Sales,Summer,March,Third,463,51932
+97,Roanna,Kield,HP,Client,Quality Analysis,Summer,May,Third,953,13449
+98,Tori,Morison,Lenovo,Platform,Quality Analysis,Autumn,May,First,863,11355
+99,Ivonne,Gounot,JPMorgan,Project,Finance,Winter,May,First,543,77956
+100,Elfreda,Durrad,HP,Platform,Development,Autumn,June,Second,958,9213

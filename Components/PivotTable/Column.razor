@@ -1,0 +1,58 @@
+﻿@using PivotTablePOC.Model
+
+<div class="grid__column">
+
+    <ColumnHeader Header=@Header></ColumnHeader>
+
+    @if (Header.ChildHeaders.Any())
+    {
+        <div class="d-flex">
+            @foreach (var childHeader in Header.ChildHeaders)
+            {
+                <Column Header=@childHeader Measures=@Measures RowHeaders=@RowHeaders></Column>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="d-flex">
+            @foreach (var measure in Measures)
+            {
+                <div class="grid__column" style="border:hidden">
+                    <div class="grid__column-header w-100 pt-10 px-10">
+                        <ColumnMeasure Measure=@measure></ColumnMeasure>
+                    </div>
+                    <div class="grid__column-body">
+                        <div class="grid__cell p-10">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        </div>
+                        <div class="grid__cell no-border">
+                            <b>@measure.GetMeasureValue(Header)</b>
+                        </div>
+                        <div class="grid__cell">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        </div>
+                        @foreach (var rowHeader in RowHeaders)
+                        {
+                            <div class="grid__cell">
+                                <div class="col">@measure.GetMeasureValue(rowHeader, Header)</div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public PivotHeader Header { get; set; }
+
+    [Parameter]
+    public List<PivotHeader> RowHeaders { get; set; }
+
+    [Parameter]
+    public List<PivotMeasure> Measures { get; set; }
+}
+

@@ -1,0 +1,48 @@
+﻿@using PivotTablePOC.Model
+
+<div class="grid__column grid__column--sticky" >
+    <div class="grid__column-header d-flex flex-column gap-10 p-10 pb-5" style="@Style">
+        <div class="d-flex justify-content-between">
+            <b>List</b>
+
+            <button id="js_collapse_all" class="btn btn__link" type="button">Collapse all</button>
+        </div>
+    </div>
+
+    <div class="grid__column-body">
+        <div class="grid__cell collapse__toggle p-10" type="button" data-bs-toggle="collapse"
+             data-bs-target="[data-collapse-Operating-Expenses]" aria-expanded="true">
+            <p>Organization Expenses</p>
+        </div>
+        <div class="collapse__body collapse show" data-collapse-Operating-Expenses style="--depth: 1">
+            <div class="grid__cell-header">
+                <div class="grid__cell no-border">
+                    <b>Suggested value</b>
+                </div>
+                <div class="grid__cell">
+                    <p>Sum of planned value</p>
+                </div>
+            </div>
+
+            @foreach (var rowHeader in RowHeaders.Where(x => x.Level == 1))
+            {
+                <RowHeader Header=@rowHeader></RowHeader>
+            }
+
+        </div>
+    </div>
+</div>
+
+
+
+@code
+{
+    [Parameter]
+    public List<PivotHeader> RowHeaders { get; set; } = new List<PivotHeader>();
+
+    [Parameter]
+    public int MaxColumnDepth { get; set; }
+
+    public string Style => $"height:{((MaxColumnDepth + 1) * 3.1).ToString()}rem !important";
+}
+

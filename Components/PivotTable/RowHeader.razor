@@ -1,0 +1,30 @@
+﻿@using PivotTablePOC.Model
+
+@if (!Header.ChildHeaders.Any())
+{
+    <div class="grid__cell">
+        <p>@Header.Name</p>
+    </div>
+}
+
+else
+{
+    <div type="button" class="grid__cell collapse__toggle" data-bs-toggle="collapse"
+         data-bs-target="[data-collapse-inner-@(Header.Name+"]")" aria-expanded="true">
+        <p>@Header.Name</p>
+    </div>
+
+    <div class="collapse__body collapse show" style="--depth: @(Header.Level+1)">
+        @foreach (var childHeader in Header.ChildHeaders)
+        {
+            <RowHeader Header="@childHeader"></RowHeader>
+        }
+    </div>
+}
+
+@code
+{
+    [Parameter]
+    public PivotHeader Header { get; set; }
+}
+

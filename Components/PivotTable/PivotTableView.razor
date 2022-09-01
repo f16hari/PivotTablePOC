@@ -1,0 +1,19 @@
+﻿@using PivotTablePOC.Model
+
+@if (PivotTable != null)
+{
+    <div class="grid grid__main">
+        <ColumnWithRowHeader RowHeaders=@PivotTable.RowHeaders MaxColumnDepth=@PivotTable.ColumnDim.Count()></ColumnWithRowHeader>
+        @foreach (var columnHeader in PivotTable.ColumnHeaders.Where(x => x.Level == 1))
+        {
+            <Column RowHeaders=@PivotTable.RowHeaders Header=@columnHeader Measures=@PivotTable.Measures></Column>
+        }
+    </div>
+}
+
+
+@code {
+
+    [Parameter]
+    public PivotTable PivotTable { get; set; }
+}

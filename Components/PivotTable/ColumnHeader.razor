@@ -1,0 +1,16 @@
+﻿@using PivotTablePOC.Model
+
+<div class="grid__column-header w-100 pt-10 px-10">
+    <div class="gap-8 align-items-center">
+        @if (Header.Level == 1)
+        {
+            <img src="./assets/icons/icon-coolicon-2.svg" alt="">
+        }
+        <b class=@(Header.Level == 1 ? "ps-10":string.Empty)>@Header.Name</b>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public PivotHeader Header { get; set; }
+}

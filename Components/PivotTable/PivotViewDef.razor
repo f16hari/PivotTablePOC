@@ -1,0 +1,80 @@
+﻿@using PivotTablePOC.Model
+
+<br />
+<span>Rows :</span>
+<input type="text" @bind=@RowDim />
+<br /><br />
+<span>Columns :</span>
+<input type="text" @bind=@ColumnDim />
+<br /><br />
+<span>Measures :</span>
+<input type="text" @bind=@Measures />
+<br />
+<br />
+<button @onclick="OnRefreshClick">Refresh</button>
+
+@code
+{
+    [Parameter]
+    public PivotModel PivotModel { get; set; }
+
+    [Parameter]
+    public EventCallback RefreshPivotGrid { get; set; }
+
+    private string _rowDim;
+    public string RowDim
+    {
+        get
+        {
+            return _rowDim;
+        }
+        set
+        {
+            _rowDim = value;
+            PivotModel.RowDim = _rowDim.Split(',').ToList();
+        }
+    }
+
+    private string _columnDim;
+    public string ColumnDim
+    {
+        get
+        {
+            return _columnDim;
+        }
+        set
+        {
+            _columnDim = value;
+            PivotModel.ColumnDim = _columnDim.Split(',').ToList();
+        }
+    }
+
+    private string _measures;
+    public string Measures
+    {
+        get
+        {
+            return _measures;
+        }
+        set
+        {
+            _measures = value;
+            PivotModel.Measures = _measures.Split(',').ToList();
+        }
+    }
+
+    protected override Task OnInitializedAsync()
+    {
+        RowDim = "Organization,Department";
+        ColumnDim = "Month";
+        Measures = "Amount";
+
+        return base.OnInitializedAsync();
+    }
+
+    public async Task OnRefreshClick()
+    {
+        await RefreshPivotGrid.InvokeAsync();
+    }
+}
+
